@@ -1,4 +1,4 @@
-import ACCESS_KEY from "./config.js";
+// import ACCESS_KEY from "./config.js";
 
 const imageContainer = document.getElementById("image-container");
 const loader = document.getElementById("loader");
@@ -10,7 +10,7 @@ let photosArray = [];
 
 // Unsplash API
 let count = 5;
-const apiKey = ACCESS_KEY;
+const apiKey = github - pages.ACCESS_KEY;
 
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
