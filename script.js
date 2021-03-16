@@ -975,6 +975,18 @@ const getPhotos = async () => {
   }
 };
 
+// Check to see if scrolling near the bottom of the page, Load more photos
+window.addEventListener("scroll", () => {
+  if (
+    window.innerHeight + window.scrollY >=
+    document.body.offsetHeight - 1000
+  ) {
+    console.log("load more");
+    // getPhotos();
+    displayPhotos();
+  }
+});
+
 // On load
 // getPhotos();
 displayPhotos();
