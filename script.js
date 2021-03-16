@@ -1,5 +1,3 @@
-import ACCESS_KEY from "./config.js";
-
 // Unsplash API
 const count = 10;
 const apiKey = ACCESS_KEY;
